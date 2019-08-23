@@ -1,4 +1,4 @@
-# xyz-json
+# xyz-google-takeout
 
 Converts a [Google Takeout](https://takeout.google.com) location history `json` file to geojson and uploads to a HERE XYZ space. 
 
@@ -28,11 +28,11 @@ To see how much Google has on you, type
 
   here xyz show [spaceID] -v
   
-to see it in XYZ Space Invader. 
+to see it inon a map using XYZ Space Invader. 
 
 The script generates some convenient tags based on time and date that you can use as filters. You can color things by choosing the properties in the popups and controls on the left side.
 
-There are some options which you probably won't need:
+There are some options (which you probably won't need):
 
 - `-f` specify the json file to parse (as noted, the script defaults to `Location History.json` if you don't use it)
 - `-s` just save the geojson as a file and don't upload
