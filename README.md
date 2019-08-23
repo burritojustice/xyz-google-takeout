@@ -16,17 +16,17 @@ To get this on a mao, you'll  want to download the [HERE CLI] and sign up for a 
 
 This script assumes you run it in the Location History Google directory you get from https://takeout.google.com (though you can specify the full file path of the `.json` file with `-f`).
 
-  python3 parse_google_takeout_location.py
+    python3 parse_google_takeout_location.py
 
 then follow the HERE XYZ CLI prompts. It will upload, and you'll see an XYZ space ID, something like:
 
-  xyzspace 'a1B2c34D' created successfully
+    xyzspace 'a1B2c34D' created successfully
 
 Copy your space ID.
 
 To see how much Google has on you, type 
 
-  here xyz show [spaceID] -v
+    here xyz show [spaceID] -v
   
 to see it inon a map using XYZ Space Invader. 
 
